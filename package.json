@@ -4,7 +4,6 @@
   "description": "Convert colors to different formats with ease",
   "main": "index.js",
   "scripts": {
-    "test": "test"
   },
   "repository": {
     "type": "git",
