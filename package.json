@@ -1,6 +1,6 @@
 {
   "name": "color-converter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert colors to different formats with ease",
   "main": "index.js",
   "scripts": {},
