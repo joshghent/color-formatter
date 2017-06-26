@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "description": "Convert colors to different formats with ease",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joshghent/color-converter.git"
