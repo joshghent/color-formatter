@@ -1,0 +1,31 @@
+{
+  "name": "color-converter",
+  "version": "1.0.0",
+  "description": "Convert colors to different formats with ease",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshghent/color-converter.git"
+  },
+  "keywords": [
+    "color",
+    "converter",
+    "api",
+    "rgb",
+    "hex",
+    "cymk",
+    "rgba",
+    "color",
+    "converter",
+    "colors"
+  ],
+  "author": "Josh Ghent <me@joshghent.com> (https://joshghent.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshghent/color-converter/issues"
+  },
+  "homepage": "https://github.com/joshghent/color-converter#readme"
+}
