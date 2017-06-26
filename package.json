@@ -1,12 +1,12 @@
 {
   "name": "color-formatter",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "Convert colors to different formats with ease",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshghent/color-converter.git"
+    "url": "git+https://github.com/joshghent/color-formatter.git"
   },
   "keywords": [
     "color",
