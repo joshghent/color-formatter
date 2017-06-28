@@ -8,7 +8,7 @@ npm install --save color-converter
 
 ## Usage
 ```js
-const Color = require('color-converter');
+const Color = require('color-formatter');
 
 const rgb = '255, 68, 133';
 const hex = '#F8E100';
