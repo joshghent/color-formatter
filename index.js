@@ -9,6 +9,21 @@ var colorObj = {
       return hex.toUpperCase();
     });
     return '#' + hexNums.toString().replace(/,/g, '');
+  },
+  toRgb: function (hexStr) {
+    var nums = [];
+    if (hexStr.length === 4) {
+      nums.push(hexStr.charAt(1));
+      nums.push(hexStr.charAt(2));
+      nums.push(hexStr.charAt(3));
+    } else if (hexStr.length === 7) {
+      nums.push(parseInt(hexStr.charAt(1) + hexStr.charAt(2), 16));
+      nums.push(parseInt(hexStr.charAt(3) + hexStr.charAt(4), 16));
+      nums.push(parseInt(hexStr.charAt(5) + hexStr.charAt(7), 16));
+    } else {
+      // error
+    }
+    return nums.toString();
   }
 };
 module.exports = colorObj;
