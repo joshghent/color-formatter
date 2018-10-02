@@ -1,3 +1,5 @@
+[![Dependency Status](https://david-dm.org/joshghent/color-formatter.svg)](https://david-dm.org/joshghent/color-formatter)
+
 # Color Converter
 > Convert colors of different formats with ease
 
