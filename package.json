@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshghent/color-formatter.git"
+    "url": "git+http://github.com/joshghent/color-formatter.git"
   },
   "keywords": [
     "color",
@@ -27,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/joshghent/color-converter/issues"
   },
-  "homepage": "https://github.com/joshghent/color-converter#readme"
+  "homepage": "https://github.com/joshghent/color-converter#readme",
 }
