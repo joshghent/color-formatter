@@ -1,4 +1,4 @@
-[![Dependency Status](https://david-dm.org/joshghent/color-formatter.svg)](https://david-dm.org/joshghent/color-formatter)
+[![Dependency Status](https://david-dm.org/joshghent/color-formatter.svg)](https://david-dm.org/joshghent/color-formatter) [![Greenkeeper badge](https://badges.greenkeeper.io/joshghent/color-formatter.svg)](https://greenkeeper.io/)
 
 # Color Converter
 > Convert colors of different formats with ease
