@@ -8,7 +8,6 @@ toRGB = function(color){
     return '248, 225, 0';
 }
 
-//'#F8E100' 
 
 exports.getType = getType
 exports.toRGB = toRGB
