@@ -1,9 +1,7 @@
 language: node_js
 
 install:
-    - pwd
-    - npm install --verbose package.json
-    - pwd
+    - npm install
 
 script:
     - node test.js
