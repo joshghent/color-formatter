@@ -1,4 +1,19 @@
 var colorObj = {
+  getType: function (colorStr) {
+    const hexRegex = /^#([A-F0-9]{3}|[A-F0-9]{6})$/i;
+
+    const rgbRegex = /^(([0-9]|([1-9][0-9])|(1[0-9][0-9])|2[0-4][0-9]|25[0-5]), ){2}([0-9]|([1-9][0-9])|(1[0-9][0-9])|2[0-4][0-9]|25[0-5])$/;
+
+    if (hexRegex.test(colorStr)) {
+      return 'hex';
+    }
+
+    if (rgbRegex.test(colorStr)) {
+      return 'rgb';
+    }
+
+    return undefined
+  },
   toHex: function (rgbStr) {
     // expect 1 parameters ;
     // break up into 3 parts;
