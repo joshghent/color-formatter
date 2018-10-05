@@ -19,7 +19,7 @@ var colorObj = {
     } else if (hexStr.length === 7) {
       nums.push(parseInt(hexStr.charAt(1) + hexStr.charAt(2), 16));
       nums.push(parseInt(hexStr.charAt(3) + hexStr.charAt(4), 16));
-      nums.push(parseInt(hexStr.charAt(5) + hexStr.charAt(7), 16));
+      nums.push(parseInt(hexStr.charAt(5) + hexStr.charAt(6), 16));
     } else {
       // error
     }
