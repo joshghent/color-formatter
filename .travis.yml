@@ -4,3 +4,6 @@ node_js:
   - "10"
   - "8"
   - "lts/*"
+script: 
+  - npm run test
+  - npm run build
