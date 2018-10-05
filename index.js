@@ -12,7 +12,7 @@ var colorObj = {
       return 'rgb';
     }
 
-    return undefined
+    return undefined;
   },
   toHex: function (rgbStr) {
     // expect 1 parameters ;
