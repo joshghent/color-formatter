@@ -4,7 +4,7 @@
   "description": "Convert colors to different formats with ease",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "nyc mocha ./test.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/joshghent/color-converter/issues"
   },
-  "homepage": "https://github.com/joshghent/color-converter#readme"
+  "homepage": "https://github.com/joshghent/color-converter#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  }
 }
