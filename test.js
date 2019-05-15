@@ -1,6 +1,7 @@
 const Color = require("./index.js");
 const assert = require("assert");
 
+
 describe("Color Formatter", () => {
     describe("convert RGB color to HEX color", () => {
         it("should convert color rgb(100, 200, 255) to #64C8FF", () => {
@@ -8,11 +9,21 @@ describe("Color Formatter", () => {
         });
     });
 
-    /*describe("convert HEX color to RGB color", () => {
+    describe("convert HEX color to RGB color", () => {
         it("should convert #F8E100 to rgb(248, 225, 0)", () => {
             assert.deepEqual(Color.toRGB("#F8E100"), "248, 225, 0");
         });
-    });*/
+        it ("Should convert various Hex codes to RGB", () => {
+          assert.deepEqual(Color.toRgb('#F8E100'), '248,225,0');
+          assert.deepEqual(Color.toRgb('#FADE00', true), [250,222,0]);
+          assert.deepEqual(Color.toRgb('#000000'), '0,0,0');
+          assert.deepEqual(Color.toRgb('#010101'), '1,1,1');
+          assert.deepEqual(Color.toRgb('#101010'), '16,16,16');
+          assert.deepEqual(Color.toRgb('#111111'), '17,17,17');
+          assert.deepEqual(Color.toRgb('#000'), '0,0,0');
+          assert.deepEqual(Color.toRgb('#111'), '17,17,17');
+        });
+    });
 
     describe("autodetect color type and return it", () => {
       it("should detect hex types if this one is a valid color", () => {

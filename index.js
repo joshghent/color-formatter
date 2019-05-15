@@ -25,18 +25,21 @@ var colorObj = {
     });
     return '#' + hexNums.toString().replace(/,/g, '');
   },
-  toRgb: function (hexStr) {
+  toRgb: function (hexStr, asArray) {
     var nums = [];
     if (hexStr.length === 4) {
-      nums.push(parseInt(hexStr.charAt(1), 16));
-      nums.push(parseInt(hexStr.charAt(2), 16));
-      nums.push(parseInt(hexStr.charAt(3), 16));
+      nums.push(parseInt(hexStr.charAt(1) + hexStr.charAt(1), 16));
+      nums.push(parseInt(hexStr.charAt(2) + hexStr.charAt(2), 16));
+      nums.push(parseInt(hexStr.charAt(3) + hexStr.charAt(3), 16));
     } else if (hexStr.length === 7) {
       nums.push(parseInt(hexStr.charAt(1) + hexStr.charAt(2), 16));
       nums.push(parseInt(hexStr.charAt(3) + hexStr.charAt(4), 16));
-      nums.push(parseInt(hexStr.charAt(5) + hexStr.charAt(7), 16));
+      nums.push(parseInt(hexStr.charAt(5) + hexStr.charAt(6), 16));
     } else {
       // error
+    }
+    if (asArray) {
+      return nums;
     }
     return nums.toString();
   }
