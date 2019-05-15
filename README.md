@@ -2,18 +2,18 @@
 
 ![alt test](https://github.com/joshghent/color-formatter/raw/master/icons/color-formatter-96.png "Color Converter")
 
-# Color Converter
-Convert colors of different formats with ease. Use it to convert a HEX color code value to an RGB triplet value or the other way round. 
+# Color Formatter
+Convert colors of different formats with ease. Use it to convert a HEX color code value to an RGB triplet value or the other way round.
 
 ## Install
 To add the module to your project, run:
 ```bash
-npm install --save color-converter
+npm install --save color-formatter
 ```
 
 ## Available functions
 ### getType(colorcode)
-Find out the type of the color value. 
+Find out the type of the color value.
 ```js
 const Color = require('color-formatter');
 /**
