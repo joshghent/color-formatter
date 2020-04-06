@@ -30,6 +30,6 @@
   "homepage": "https://github.com/joshghent/color-converter#readme",
   "devDependencies": {
     "mocha": "^6.2.0",
-    "nyc": "^13.0.1"
+    "nyc": "^15.0.0"
   }
 }
